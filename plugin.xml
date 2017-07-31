@@ -11,6 +11,8 @@
     <engines>
       <engine name="cordova" version=">=3.0.0" />
     </engines>
+        
+   <dependency id="es6-promise-plugin" version="4.1.0" />
 
     <js-module src="www/sms.js" name="Sms">
         <clobbers target="window.sms" />
